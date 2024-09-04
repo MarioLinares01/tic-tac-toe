@@ -1,0 +1,55 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: ReenieBean;
+    src: url(fonts/ReenieBeanie-Regular.ttf);
+}
+
+body {
+    font-family: ReenieBean;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.title {
+    margin-top: 2rem;
+    font-family: ReenieBean;
+    font-size: 5rem;
+    font-weight: bolder;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    font-family: ReenieBean;
+    font-size: 5rem;
+}
+
+.status {
+    font-family: ReenieBean;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+#reset {
+    font-size: 2rem;
+    font-family: ReenieBean;
+    width: 125px;
+}
