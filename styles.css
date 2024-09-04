@@ -28,6 +28,7 @@ body {
 .board {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    border: 2px solid black;
 }
 
 .grid {
@@ -35,7 +36,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 10px;
-    border: 1px solid black;
+    border: 2px solid black;
     width: 100px;
     height: 100px;
     font-family: ReenieBean;
